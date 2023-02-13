@@ -102,10 +102,13 @@
 // }
 
 // task_8
-const calculateTotalPrice = (quantity, pricePerItem) => {
-  // Change code above this line
-  return quantity * pricePerItem;
-}
+// const calculateTotalPrice = (quantity, pricePerItem) => {
+//   // Change code above this line
+//   return quantity * pricePerItem;
+// }
+
+// task_9
+const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
 
 
 
