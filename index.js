@@ -91,15 +91,22 @@
 // }
 
 // task_7
-function getCommonElements(firstArray, secondArray) {
-  const commonElements = [];
-  // Change code below this line
-firstArray.forEach(element => secondArray.includes(element) ? commonElements.push(element) : false)
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+//   // Change code below this line
+// firstArray.forEach(element => secondArray.includes(element) ? commonElements.push(element) : false)
   
 
-  return commonElements;
+//   return commonElements;
+//   // Change code above this line
+// }
+
+// task_8
+const calculateTotalPrice = (quantity, pricePerItem) => {
   // Change code above this line
+  return quantity * pricePerItem;
 }
+
 
 
 
