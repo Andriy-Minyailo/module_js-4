@@ -70,13 +70,24 @@
 // pizzaPalace.order("Vienna", makePizza, onOrderError);
 
 // task_5
-function calculateTotalPrice(orderedItems) {
-  let totalPrice = 0;
-  // Change code below this line
-orderedItems.forEach(element => totalPrice += element)
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+//   // Change code below this line
+// orderedItems.forEach(element => totalPrice += element)
   
+//   // Change code above this line
+//   return totalPrice;
+// }
+
+// task_6
+function filterArray(numbers, value) {
+  const filteredNumbers = [];
+  // Change code below this line
+numbers.forEach(number => number > value ? filteredNumbers.push(number) : false)
+ 
+
   // Change code above this line
-  return totalPrice;
+  return filteredNumbers;
 }
 
 
