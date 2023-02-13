@@ -108,7 +108,16 @@
 // }
 
 // task_9
-const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
+// const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
+
+// task_10
+const calculateTotalPrice = (orderedItems) => {
+  let totalPrice = 0;
+
+  orderedItems.forEach(item => totalPrice += item);
+
+  return totalPrice;
+}
 
 
 
