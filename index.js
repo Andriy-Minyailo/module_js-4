@@ -80,14 +80,25 @@
 // }
 
 // task_6
-function filterArray(numbers, value) {
-  const filteredNumbers = [];
-  // Change code below this line
-numbers.forEach(number => number > value ? filteredNumbers.push(number) : false)
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+//   // Change code below this line
+// numbers.forEach(number => number > value ? filteredNumbers.push(number) : false)
  
 
+//   // Change code above this line
+//   return filteredNumbers;
+// }
+
+// task_7
+function getCommonElements(firstArray, secondArray) {
+  const commonElements = [];
+  // Change code below this line
+firstArray.forEach(element => secondArray.includes(element) ? commonElements.push(element) : false)
+  
+
+  return commonElements;
   // Change code above this line
-  return filteredNumbers;
 }
 
 
