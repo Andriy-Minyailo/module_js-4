@@ -119,8 +119,17 @@
 //   return totalPrice;
 // }
 
-// test
-function aaa() = { };
+// task_11
+const filterArray = (numbers, value) => {
+  const filteredNumbers = [];
+
+  numbers.forEach(number => number > value ? filteredNumbers.push(number) : false    
+  );
+
+  // Change code above this line
+  return filteredNumbers;
+}
+
 
 
 
