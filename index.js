@@ -120,16 +120,25 @@
 // }
 
 // task_11
-const filterArray = (numbers, value) => {
-  const filteredNumbers = [];
+// const filterArray = (numbers, value) => {
+//   const filteredNumbers = [];
 
-  numbers.forEach(number => number > value ? filteredNumbers.push(number) : false    
-  );
+//   numbers.forEach(number => number > value ? filteredNumbers.push(number) : false
+//   );
+
+//   // Change code above this line
+//   return filteredNumbers;
+// }
+
+// task_12
+const getCommonElements = (firstArray, secondArray) => {
+  const commonElements = [];
+
+  firstArray.forEach(element => secondArray.includes(element) ?   commonElements.push(element) : false);
 
   // Change code above this line
-  return filteredNumbers;
+  return commonElements;
 }
-
 
 
 
