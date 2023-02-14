@@ -131,14 +131,25 @@
 // }
 
 // task_12
-const getCommonElements = (firstArray, secondArray) => {
-  const commonElements = [];
+// const getCommonElements = (firstArray, secondArray) => {
+//   const commonElements = [];
 
-  firstArray.forEach(element => secondArray.includes(element) ?   commonElements.push(element) : false);
+//   firstArray.forEach(element => secondArray.includes(element) ?   commonElements.push(element) : false);
 
+//   // Change code above this line
+//   return commonElements;
+// }
+
+// task_13
+function changeEven(numbers, value) {
+  // Change code below this line
+  const newArray = [];
+  numbers.forEach(number => number % 2 === 0 ? newArray.push(number + value) : newArray.push(number));
+  return newArray;
+  
   // Change code above this line
-  return commonElements;
 }
+
 
 
 
