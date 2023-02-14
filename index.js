@@ -141,14 +141,20 @@
 // }
 
 // task_13
-function changeEven(numbers, value) {
-  // Change code below this line
-  const newArray = [];
-  numbers.forEach(number => number % 2 === 0 ? newArray.push(number + value) : newArray.push(number));
-  return newArray;
+// function changeEven(numbers, value) {
+//   // Change code below this line
+//   const newArray = [];
+//   numbers.forEach(number => number % 2 === 0 ? newArray.push(number + value) : newArray.push(number));
+//   return newArray;
   
-  // Change code above this line
-}
+//   // Change code above this line
+// }
+
+// task_14
+const planets = ["Earth", "Mars", "Venus", "Jupiter"];
+// Change code below this line
+const planetsLengths = planets.map(planet => planet.length);
+
 
 
 
