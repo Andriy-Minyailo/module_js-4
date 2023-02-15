@@ -202,10 +202,13 @@
 // const genres = books.flatMap(book => book.genres);
 
 // task_17
-const getUserNames = users => {
-    return users.map(user => user.name);
+// const getUserNames = users => {
+//     return users.map(user => user.name);
 
-  };
+//   };
+
+// task_18
+const getUserEmails = users => users.map(user => user.email);
 
 
 
