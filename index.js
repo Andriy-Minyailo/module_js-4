@@ -208,7 +208,14 @@
 //   };
 
 // task_18
-const getUserEmails = users => users.map(user => user.email);
+// const getUserEmails = users => users.map(user => user.email);
+
+// task_19
+const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
+// Change code below this line
+
+const evenNumbers = numbers.filter(number => number % 2 === 0);
+const oddNumbers = numbers.filter(number => number % 2 !== 0);
 
 
 
