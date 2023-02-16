@@ -276,9 +276,13 @@
 //   user => user.age > minAge && user.age < maxAge);
 
 // task_24
-const getUsersWithFriend = (users, friendName) => users.filter(
-  user => user.friends.includes(friendName)
-);
+// const getUsersWithFriend = (users, friendName) => users.filter(
+//   user => user.friends.includes(friendName)
+// );
+
+// task_25
+const getFriends = (users) => users.flatMap(user => user.friends).filter(
+  (friend, index, array) => array.indexOf(friend) === index);
 
 
 
