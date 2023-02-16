@@ -272,8 +272,13 @@
 // const getUsersWithEyeColor = (users, color) => users.filter(user => user.eyeColor === color);
 
 // task_23
-const getUsersWithAge = (users, minAge, maxAge) => users.filter(
-  user => user.age > minAge && user.age < maxAge);
+// const getUsersWithAge = (users, minAge, maxAge) => users.filter(
+//   user => user.age > minAge && user.age < maxAge);
+
+// task_24
+const getUsersWithFriend = (users, friendName) => users.filter(
+  user => user.friends.includes(friendName)
+);
 
 
 
