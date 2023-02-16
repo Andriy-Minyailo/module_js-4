@@ -269,7 +269,11 @@
 // const booksByAuthor = books.filter(book => book.author === AUTHOR);
 
 // task_22
-const getUsersWithEyeColor = (users, color) => users.filter(user => user.eyeColor === color);
+// const getUsersWithEyeColor = (users, color) => users.filter(user => user.eyeColor === color);
+
+// task_23
+const getUsersWithAge = (users, minAge, maxAge) => users.filter(
+  user => user.age > minAge && user.age < maxAge);
 
 
 
