@@ -285,8 +285,13 @@
 //   (friend, index, array) => array.indexOf(friend) === index);
 
 // task_26
+// // Change code below this line
+// const getActiveUsers = (users) => users.filter(user => user.isActive);
+// // Change code above this line
+
+// task_27
 // Change code below this line
-const getActiveUsers = (users) => users.filter(user => user.isActive);
+const getInactiveUsers = (users) => users.filter(user => !user.isActive);
 // Change code above this line
 
 
