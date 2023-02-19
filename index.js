@@ -395,10 +395,13 @@
 
 // task_36
 // Change code below this line
-const calculateTotalBalance = users => users.reduce(
-  (acc, user) => acc += user.balance, 0);
-// Change code above this line
+// const calculateTotalBalance = users => users.reduce(
+//   (acc, user) => acc += user.balance, 0);
+// // Change code above this line
 
+// task_37
+const getTotalFriendCount = users => users.reduce(
+  (total, user) => total += user.friends.length, 0);
 
 
 
