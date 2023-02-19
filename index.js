@@ -382,17 +382,22 @@
 // const averagePlayTime = totalPlayTime / playtimes.length;
 
 // task_35
-const players = [
-  { name: "Mango", playtime: 1270, gamesPlayed: 4 },
-  { name: "Poly", playtime: 469, gamesPlayed: 2 },
-  { name: "Ajax", playtime: 690, gamesPlayed: 3 },
-  { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
-];
+// const players = [
+//   { name: "Mango", playtime: 1270, gamesPlayed: 4 },
+//   { name: "Poly", playtime: 469, gamesPlayed: 2 },
+//   { name: "Ajax", playtime: 690, gamesPlayed: 3 },
+//   { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
+// ];
+// // Change code below this line
+
+// const totalAveragePlaytimePerGame = players.reduce(
+//   (total, {playtime, gamesPlayed}) => total += playtime / gamesPlayed, 0);
+
+// task_36
 // Change code below this line
-
-const totalAveragePlaytimePerGame = players.reduce(
-  (total, {playtime, gamesPlayed}) => total += playtime / gamesPlayed, 0);
-
+const calculateTotalBalance = users => users.reduce(
+  (acc, user) => acc += user.balance, 0);
+// Change code above this line
 
 
 
