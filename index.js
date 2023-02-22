@@ -486,8 +486,13 @@
 // );;
 
 // task_42
-const sortByAscendingBalance = users => [...users].sort(
-  (a, b) => a.balance - b.balance
+// const sortByAscendingBalance = users => [...users].sort(
+//   (a, b) => a.balance - b.balance
+// );
+
+// task_43
+const sortByDescendingFriendCount = users => [...users].sort(
+  (a, b) => b.friends.length - a.friends.length
 );
 
 
