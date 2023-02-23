@@ -541,13 +541,18 @@
 //   .map(user => user.name);
 
 // task_47
-const getSortedFriends = users => users
-  .flatMap(user => user.friends)
-  .filter(
-  (user, index, array) => array.indexOf(user) === index)
-  .sort(
-    (a, b) => a.localeCompare(b)
-  );
+// const getSortedFriends = users => users
+//   .flatMap(user => user.friends)
+//   .filter(
+//   (user, index, array) => array.indexOf(user) === index)
+//   .sort(
+//     (a, b) => a.localeCompare(b)
+//   );
+
+// task_48
+const getTotalBalanceByGender = (users, gender) => users
+  .filter(user => user.gender === gender)
+  .reduce((total, user) => total += user.balance, 0);
 
 
 
