@@ -535,12 +535,19 @@
 //   );
 
 // task_46
-const getNamesSortedByFriendCount = users => [...users].sort(
-  (a, b) => a.friends.length - b.friends.length
-)
-  .map(user => user.name);
+// const getNamesSortedByFriendCount = users => [...users].sort(
+//   (a, b) => a.friends.length - b.friends.length
+// )
+//   .map(user => user.name);
 
-
+// task_47
+const getSortedFriends = users => users
+  .flatMap(user => user.friends)
+  .filter(
+  (user, index, array) => array.indexOf(user) === index)
+  .sort(
+    (a, b) => a.localeCompare(b)
+  );
 
 
 
